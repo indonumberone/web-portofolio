@@ -1,5 +1,7 @@
 import { siteConfig } from "@/config/site.config";
 
+export const dynamic = "force-static";
+
 export async function GET() {
   const host = siteConfig.domain || "localhost";
   const lines = [

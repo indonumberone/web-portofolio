@@ -52,7 +52,8 @@ export function HeroSection() {
               <Announcement>
                 <AnnouncementTag>New</AnnouncementTag>
                 <AnnouncementTitle>
-                  Portfolio 2025 is here
+                  {"portfolio update: "}
+                  {new Date().getFullYear()}
                   <ArrowUpRightIcon className="ml-1 h-3 w-3" />
                 </AnnouncementTitle>
               </Announcement>

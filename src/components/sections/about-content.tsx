@@ -2,10 +2,8 @@
 
 import { motion, useInView } from "motion/react";
 import { siteConfig } from "@/config/site.config";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin, Coffee } from "lucide-react";
+import { MapPin } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import { useRef } from "react";
 
 export function AboutContent() {

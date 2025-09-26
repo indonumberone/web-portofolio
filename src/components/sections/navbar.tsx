@@ -4,15 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
-import {
-  Menu,
-  X,
-  Github,
-  Linkedin,
-  Globe,
-  Coffee,
-  Instagram,
-} from "lucide-react";
+import { Menu, Github, Linkedin, Globe, Instagram } from "lucide-react";
 
 import { siteConfig } from "@/config/site.config";
 import { cn } from "@/lib/utils";

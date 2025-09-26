@@ -6,7 +6,10 @@ export type SocialLink = {
   url: string;
   icon?: string; // name for icon library if needed later
 };
-
+export type NavItem = {
+  label: string;
+  href: string;
+};
 export interface SiteConfig {
   siteName: string;
   domain: string;

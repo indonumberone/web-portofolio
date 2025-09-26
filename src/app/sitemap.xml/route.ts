@@ -1,5 +1,7 @@
 import { siteConfig } from "@/config/site.config";
 
+export const dynamic = "force-static";
+
 const STATIC_PAGES = ["/"];
 
 function buildUrl(host: string, path: string) {

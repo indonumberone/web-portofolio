@@ -1,5 +1,5 @@
 "use client";
-import { motion, AnimatePresence, useAnimation } from "motion/react";
+import { motion, useAnimation } from "motion/react";
 import { useEffect, useState, useCallback } from "react";
 
 interface TypingMotionProps {

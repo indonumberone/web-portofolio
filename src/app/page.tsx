@@ -74,7 +74,8 @@ export default function Home() {
               Get In Touch
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Have a project in mind? Let's discuss how we can work together
+              Have a project in mind? Let&apos;s discuss how we can work
+              together
             </p>
           </div>
           <ContactCard />
