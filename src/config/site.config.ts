@@ -15,9 +15,7 @@ export interface SiteConfig {
   description: string;
   about: string;
   aboutContent: {
-    intro: string;
-    journey: string;
-    personal: string;
+    body: string;
     name: string;
   };
   keywords: string[];
@@ -91,12 +89,7 @@ export const siteConfig: SiteConfig = {
     "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   aboutContent: {
     name: "Muqsith Barru Pamungkas",
-    intro:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    journey:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    personal:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    body: "I am a passionate Full Stack Developer and Cybersecurity Enthusiast with a knack for creating innovative web solutions. With a strong foundation in both frontend and backend technologies, I thrive on building seamless user experiences while ensuring robust security measures. My journey in tech is driven by curiosity and a commitment to continuous learning, allowing me to stay ahead in the ever-evolving landscape of web development and cybersecurity.",
   },
 
   skills: {

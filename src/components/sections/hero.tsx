@@ -66,7 +66,7 @@ export function HeroSection() {
                 transition={{ delay: 0.2 }}
                 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight"
               >
-                Hello, I'm{" "}
+                Hello, I&apos;m{" "}
               </motion.h1>
 
               {/* Typing Animation */}

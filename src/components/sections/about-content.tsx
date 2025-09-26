@@ -54,7 +54,7 @@ export function AboutContent() {
               </span>
 
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="text-primary">
                   {siteConfig.aboutContent.name}
                 </span>
@@ -63,9 +63,7 @@ export function AboutContent() {
 
             {/* Bio */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>{siteConfig.aboutContent.intro}</p>
-              <p>{siteConfig.aboutContent.journey}</p>
-              <p>{siteConfig.aboutContent.personal}</p>
+              <p>{siteConfig.aboutContent.body}</p>
             </div>
 
             {/* Quick Info */}
