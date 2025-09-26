@@ -15,19 +15,8 @@ export default function Home() {
       <HeroSection />
 
       {/* About Section */}
-      <section id="about" className="py-16 bg-muted/30">
-        <div className="mx-auto max-w-4xl px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl mb-6">
-              About Me
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Get to know more about my background, skills, and passion for
-              technology
-            </p>
-          </div>
-          <AboutContent />
-        </div>
+      <section id="about" className="bg-muted/30">
+        <AboutContent />
       </section>
 
       <section id="skills" className="py-16 bg-background">
