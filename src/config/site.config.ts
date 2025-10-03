@@ -21,6 +21,7 @@ export interface SiteConfig {
     body: string;
     name: string;
   };
+  interests: string[];
   keywords: string[];
   ogImage: string;
 
@@ -83,17 +84,24 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   siteName: "Muqsith Barru",
-  domain: "muqsith.com",
+  domain: "muqsith.me",
   author: "Muqsith Barru",
   author_img: "/img/profile.jpg",
   description:
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Designing IoT systems and software that are secure, scalable, and future-ready. Passionate about cybersecurity and transforming ideas into impactful solutions.",
   about:
     "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   aboutContent: {
     name: "Muqsith Barru Pamungkas",
     body: "I am a passionate Full Stack Developer and Cybersecurity Enthusiast with a knack for creating innovative web solutions. With a strong foundation in both frontend and backend technologies, I thrive on building seamless user experiences while ensuring robust security measures. My journey in tech is driven by curiosity and a commitment to continuous learning, allowing me to stay ahead in the ever-evolving landscape of web development and cybersecurity.",
   },
+
+  interests: [
+    "Muqsith",
+    "IoT Engineer",
+    "Software Developer",
+    "Cybersecurity Enthusiast",
+  ],
 
   skills: {
     categories: {
@@ -175,32 +183,22 @@ export const siteConfig: SiteConfig = {
 
   achievements: [
     {
-      title: "1st Place - National Cybersecurity Championship",
-      date: "2023-11",
-      issuer: "Indonesia Cybersecurity Association",
+      title: "Finalist CTF - IDSECCONF 2025",
+      issuer: "IDSECCONF",
       description:
-        "Won first place in the annual national CTF competition, demonstrating expertise in web exploitation, cryptography, and reverse engineering.",
+        "Achieved Finalist top 10 position at IDSECCONF 2025 CTF, hosted by ITS Surabaya, competing in advanced cybersecurity categories: reverse, pwn, and web.",
     },
     {
-      title: "AWS Certified Solutions Architect",
-      date: "2022-05",
-      issuer: "Amazon Web Services",
+      title: "JuaraGCP Season 11",
+      issuer: "Google Cloud",
       description:
-        "Professional certification validating expertise in designing distributed systems on AWS.",
-      url: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+        "Chosen as one of the participants of #JuaraGCP 2025, an exclusive Google Cloud program designed for Indonesian developers. Through this program, I gained access to Google Cloud Skills Boost, completing hands-on labs in AI/ML, Data, Security, and Cloud computing, while engaging with industry experts and a supportive community.",
     },
     {
-      title: "Best Web Application Award",
-      date: "2021-08",
-      issuer: "Indonesia Digital Innovation Forum",
+      title: "Finalist top 10 - Samsung Innovation Campus",
+      issuer: "Samsung",
       description:
-        "Received award for developing an innovative IoT monitoring dashboard that reduced operational costs by 30%.",
-    },
-    {
-      title: "Open Source Contributor",
-      issuer: "Various Projects",
-      description:
-        "Active contributor to several open-source projects including security tools and React component libraries.",
+        "Selected as one of the Top 10 finalists in the Samsung Innovation Campus program, focusing on IoT ,AI, and software development. Developed innovative solutions with an emphasis on problem-solving, teamwork, and practical implementation.",
     },
   ],
 
@@ -225,7 +223,7 @@ export const siteConfig: SiteConfig = {
   links: {
     website: "https://muqsith.com",
     github: "https://github.com/indonumberone",
-    linkedin: "https://www.linkedin.com/feed/",
+    linkedin: "https://www.linkedin.com/in/muqsith-barru-pamungkas-9a03ab37a/",
     email: "mailto:contact@muqsithbarrupamungkas@gmail.com",
   },
 
@@ -288,10 +286,10 @@ export const siteConfig: SiteConfig = {
       "Bug Bounty",
       "AI",
     ],
-    canonical: "https://muqsith.com",
+    canonical: "https://muqsith.me",
     image: "/og.png",
     imageAlt:
-      "Muqsith Barru Pamungkas - IoT ,Full Stack Developer, Cybersecurity Enthusiast",
+      "Muqsith Barru Pamungkas - IoT Engineer, Software Developer, Cybersecurity Enthusiast",
     locale: "en-US",
     type: "website",
     robots: "index,follow",

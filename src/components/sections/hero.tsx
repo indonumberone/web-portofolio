@@ -15,12 +15,8 @@ import Image from "next/image";
 
 export function HeroSection() {
   // Array minat/interests untuk typing animation
-  const interests = [
-    "Muqsith",
-    "IoT Developer",
-    "Full Stack Developer",
-    "Cybersecurity Enthusiast",
-  ];
+  const interests = siteConfig.interests;
+  const description = siteConfig.description;
 
   return (
     <motion.section
@@ -91,9 +87,7 @@ export function HeroSection() {
               transition={{ delay: 0.6 }}
               className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Building secure, scalable solutions and exploring the frontiers of
-              technology. From web applications to cybersecurity research, I
-              turn ideas into reality.
+              {description}
             </motion.p>
 
             {/* CTA Buttons */}
