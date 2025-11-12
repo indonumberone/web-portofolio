@@ -103,8 +103,8 @@ export function HeroSection() {
                 className="group bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
               >
                 <Link
-                  href="/cv/Muqsith_Barru_CV.pdf"
-                  download="Muqsith_Barru_CV.pdf"
+                  href="https://drive.google.com/drive/folders/16p6R0is1TXE-Fcu14304WR75VkyVmTaY"
+                  download="Muqsith_CV.pdf"
                 >
                   <Download className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
                   Download CV
