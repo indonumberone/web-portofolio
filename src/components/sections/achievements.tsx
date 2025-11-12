@@ -36,10 +36,10 @@ export function AchievementsSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="h-full"
             >
-              <Card className="group h-full flex flex-col bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm border-0 hover:shadow-xl hover:shadow-primary/5 transition-all duration-500 hover:-translate-y-1">
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <Card className="group h-full flex flex-col bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm border-0 hover:shadow-xl hover:shadow-primary/5 transition-all duration-500 hover:-translate-y-1 relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
-                <CardHeader className="relative pb-2">
+                <CardHeader className="relative pb-2 z-10">
                   <div className="flex items-center justify-between mb-2">
                     <Award className="h-5 w-5 text-primary" />
                     {achievement.date && (
@@ -62,7 +62,7 @@ export function AchievementsSection() {
                   )}
                 </CardHeader>
 
-                <CardContent className="flex-1 flex flex-col justify-between space-y-4">
+                <CardContent className="flex-1 flex flex-col justify-between space-y-4 relative z-10">
                   {achievement.description && (
                     <p className="text-sm text-muted-foreground">
                       {achievement.description}
@@ -75,7 +75,7 @@ export function AchievementsSection() {
                         asChild
                         variant="outline"
                         size="sm"
-                        className="w-full group"
+                        className="w-full group relative z-20"
                       >
                         <Link
                           href={achievement.url}

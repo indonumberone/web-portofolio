@@ -175,54 +175,6 @@ export function HeroSection() {
                   {/* Overlay Gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent" />
                 </div>
-
-                {/* Floating Elements */}
-                <motion.div
-                  animate={{
-                    y: [-10, 10, -10],
-                    rotate: [0, 5, 0],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                  }}
-                  className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-primary to-primary/60 rounded-full flex items-center justify-center shadow-lg"
-                >
-                  <span className="text-2xl">💻</span>
-                </motion.div>
-
-                <motion.div
-                  animate={{
-                    y: [10, -10, 10],
-                    rotate: [0, -5, 0],
-                  }}
-                  transition={{
-                    duration: 4,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: 1,
-                  }}
-                  className="absolute -bottom-4 -left-4 w-12 h-12 bg-gradient-to-r from-secondary to-secondary/60 rounded-full flex items-center justify-center shadow-lg"
-                >
-                  <span className="text-lg">🔒</span>
-                </motion.div>
-
-                <motion.div
-                  animate={{
-                    y: [-5, 15, -5],
-                    x: [-5, 5, -5],
-                  }}
-                  transition={{
-                    duration: 5,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: 2,
-                  }}
-                  className="absolute top-8 -left-8 w-10 h-10 bg-gradient-to-r from-accent to-accent/60 rounded-full flex items-center justify-center shadow-lg"
-                >
-                  <span className="text-sm">⚡</span>
-                </motion.div>
               </div>
             </div>
           </motion.div>

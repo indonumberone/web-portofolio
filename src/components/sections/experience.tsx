@@ -16,10 +16,11 @@ export function ExperienceSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl mb-6">
-            Professional Experience
+            My Experience
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            My journey and roles in the tech industry
+            A journey through my experiences, showcasing my growth, skills, and
+            contributions in the tech industry.
           </p>
         </motion.div>
 

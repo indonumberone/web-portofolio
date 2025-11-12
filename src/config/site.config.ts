@@ -88,20 +88,18 @@ export const siteConfig: SiteConfig = {
   author: "Muqsith Barru",
   author_img: "/img/profile.jpg",
   description:
-    "Designing IoT systems and software that are secure, scalable, and future-ready. Passionate about cybersecurity and transforming ideas into impactful solutions.",
-  about:
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Specializing in cybersecurity, vulnerability research, and CTF problem-solving. Passionate about securing systems, uncovering vulnerabilities, and turning complex security challenges into real-world impact.",
+  about: "",
   aboutContent: {
     name: "Muqsith Barru Pamungkas",
-    body: "I am a passionate Full Stack Developer and Cybersecurity Enthusiast with a knack for creating innovative web solutions. With a strong foundation in both frontend and backend technologies, I thrive on building seamless user experiences while ensuring robust security measures. My journey in tech is driven by curiosity and a commitment to continuous learning, allowing me to stay ahead in the ever-evolving landscape of web development and cybersecurity.",
+    body: `5th-semester Internet Engineering Technology student specializing in cybersecurity, with practical experience
+in web application security, networking, and IoT. Proven ethical hacker with a track record of identifying and responsibly
+disclosing vulnerabilities including Information Disclosure, XSS, and SQL Injection in university and government
+systems. A national finalist in the IDSECCONF 2024 CTF competition and a core team member of the TRI
+Cybersecurity Community, responsible for mentoring members and delivering foundational cybersecurity trainings`,
   },
 
-  interests: [
-    "Muqsith",
-    "IoT Engineer",
-    "Software Developer",
-    "Cybersecurity Enthusiast",
-  ],
+  interests: ["Muqsith", "Cybersecurity Enthusiast", "IoT Engineer"],
 
   skills: {
     categories: {
@@ -150,55 +148,104 @@ export const siteConfig: SiteConfig = {
 
   experience: [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      location: "Jakarta, Indonesia",
-      startDate: "2022-01",
+      title: "Security Researcher",
+      company: "Self-Employed",
+      location: "Remote",
+      startDate: "2025",
       endDate: "Present",
       description:
-        "Lead development of enterprise web applications using React, Next.js, and Node.js. Implemented CI/CD pipelines and improved application performance by 40%.",
-      technologies: ["React", "Next.js", "Node.js", "PostgreSQL", "AWS"],
+        "Conduct vulnerability research and responsible disclosure for university and Indonesian government CSIRT systems. Discovered and reported issues including Information Disclosure, XSS, LFI, and SQL Injection. Authored detailed technical reports and mitigation recommendations, and coordinated with security teams to ensure vulnerabilities were verified and responsibly patched.",
+      technologies: [
+        "XSS",
+        "SQL Injection",
+        "LFI",
+        "Burp Suite",
+        "Nmap",
+        "Linux",
+      ],
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations",
+      title: "Cybersecurity Problem Setter",
+      company: "IONIC 2025",
       location: "Surabaya, Indonesia",
-      startDate: "2020-03",
-      endDate: "2021-12",
+      startDate: "2025-08",
+      endDate: "2025-11",
       description:
-        "Developed and maintained multiple client websites and applications. Created RESTful APIs and integrated third-party services.",
-      technologies: ["JavaScript", "React", "Express", "MongoDB", "Docker"],
+        "Designed Jeopardy-style reverse engineering challenges for qualification rounds and developed a boot2root challenge leveraging CVE exploitation and common misconfigurations. Contributed to server and network setup, deployment, and security hardening to ensure a stable and secure competition environment.",
+      technologies: [
+        "Reverse Engineering",
+        "CVE Exploitation",
+        "Linux",
+        "Networking",
+      ],
     },
     {
-      title: "Junior Web Developer",
-      company: "Creative Web Agency",
-      location: "Bandung, Indonesia",
-      startDate: "2018-06",
-      endDate: "2020-02",
+      title: "Cybersecurity Community Lead",
+      company: "TRI Cybersecurity Community (TCC)",
+      location: "Surabaya, Indonesia",
+      startDate: "2025-01",
+      endDate: "Present",
       description:
-        "Built responsive websites for clients across various industries. Collaborated with designers to implement UI/UX improvements.",
-      technologies: ["HTML/CSS", "JavaScript", "PHP", "WordPress", "MySQL"],
+        "Lead and organize CTF knowledge-sharing sessions focusing on cybersecurity and reverse engineering. Conduct training and live demos on topics such as binary analysis and web exploitation. Collaborate with members on vulnerability research and participate in external CTF competitions.",
+      technologies: ["CTF", "Reverse Engineering", "Web Exploitation", "Linux"],
     },
   ],
 
   achievements: [
     {
-      title: "Finalist CTF - IDSECCONF 2025",
-      issuer: "IDSECCONF",
+      title: "Certificate of Appreciation – DIY Provincial Government",
+      issuer: "DIY Provincial Government",
+      date: "2025-11",
       description:
-        "Achieved Finalist top 10 position at IDSECCONF 2025 CTF, hosted by ITS Surabaya, competing in advanced cybersecurity categories: reverse, pwn, and web.",
+        "Recognized for ethically reporting a time-based Blind SQL Injection vulnerability on a public service system owned by the DIY Provincial Government.",
+      url: "https://drive.google.com/file/d/1tG0YY4m9ZIshR1dTui5CvilfJtXlCOoh/view?usp=sharing",
+    },
+    {
+      title: "Certificate of Appreciation – Airlangga University",
+      issuer: "Universitas Airlangga (UNAIR)",
+      date: "2025-10",
+      description:
+        "Awarded for responsible disclosure of an Information Disclosure vulnerability discovered on one of UNAIR’s subdomains.",
+      url: "https://drive.google.com/file/d/1mM1Yi5wWFqwZ7bKI68LTwqTZ3tM0A41X/view?usp=sharing",
+    },
+    {
+      title: "Finalist – Samsung Innovation Campus",
+      issuer: "Samsung x Hacktiv8",
+      date: "2025-05",
+      description:
+        "Selected as a finalist in the Samsung Innovation Campus program, focusing on IoT and AI prototyping with real-world problem solving and implementation.",
+      url: "https://drive.google.com/file/d/1-RaecMu6ELzXctPS3S9i9eH1BjN_zyL_/view?usp=sharing",
+    },
+    {
+      title: "Finalist – IDSECCONF 2024 CTF",
+      issuer: "ITS Surabaya",
+      date: "2024-11",
+      description:
+        "Achieved national finalist status in the IDSECCONF 2024 Capture the Flag competition, specializing in reverse engineering, binary exploitation, and web exploitation.",
+      // no URL as requested
     },
     {
       title: "JuaraGCP Season 11",
+      date: "2025-03",
       issuer: "Google Cloud",
       description:
         "Chosen as one of the participants of #JuaraGCP 2025, an exclusive Google Cloud program designed for Indonesian developers. Through this program, I gained access to Google Cloud Skills Boost, completing hands-on labs in AI/ML, Data, Security, and Cloud computing, while engaging with industry experts and a supportive community.",
     },
     {
-      title: "Finalist top 10 - Samsung Innovation Campus",
-      issuer: "Samsung",
+      title: "Web Fundamentals Certification",
+      issuer: "TryHackMe",
+      date: "2025-09",
       description:
-        "Selected as one of the Top 10 finalists in the Samsung Innovation Campus program, focusing on IoT ,AI, and software development. Developed innovative solutions with an emphasis on problem-solving, teamwork, and practical implementation.",
+        "Completed training covering OWASP Top 10, SQL Injection, XSS, IDOR, File Inclusion, Race Conditions, and authentication bypass using hands-on labs.",
+      url: "https://drive.google.com/file/d/1_3UZpYs7noj2uT-4xfPI-TynWtfu-YJc/view?usp=sharing",
+    },
+    {
+      title: "CompTIA Pentest+ (TryHackMe Path)",
+      issuer: "TryHackMe",
+      date: "2025-11",
+      description:
+        "Completed pentesting pathway covering methodologies, Active Directory attacks, post-exploitation, Metasploit, reconnaissance, and pivoting.",
+      url: "https://drive.google.com/file/d/1-J5amqHa9WLbVeT_hN0G-ylRvrpkIeSx/view?usp=sharing",
     },
   ],
 
@@ -221,10 +268,10 @@ export const siteConfig: SiteConfig = {
   },
 
   links: {
-    website: "https://muqsith.com",
+    website: "https://muqsith.me",
     github: "https://github.com/indonumberone",
-    linkedin: "https://www.linkedin.com/in/muqsith-barru-pamungkas-9a03ab37a/",
-    email: "mailto:contact@muqsithbarrupamungkas@gmail.com",
+    linkedin: "https://www.linkedin.com/in/muqsith-barru/",
+    email: "mailto:contact@01muqsith@gmail.com",
   },
 
   social: [
@@ -235,17 +282,17 @@ export const siteConfig: SiteConfig = {
     },
     {
       label: "LinkedIn",
-      url: "https://www.linkedin.com//",
+      url: "https://www.linkedin.com/in/muqsith-barru/",
       icon: "linkedin",
     },
     {
       label: "Website",
-      url: "https://muqsith.com",
+      url: "https://muqsith.me",
       icon: "globe",
     },
     {
       label: "Instagram",
-      url: "https://www.instagram.com/flyingcat121/",
+      url: "https://www.instagram.com/muqsithb/",
       icon: "instagram",
     },
   ],
@@ -289,7 +336,7 @@ export const siteConfig: SiteConfig = {
     canonical: "https://muqsith.me",
     image: "/og.png",
     imageAlt:
-      "Muqsith Barru Pamungkas - IoT Engineer, Software Developer, Cybersecurity Enthusiast",
+      "Muqsith Barru Pamungkas - Cybersecurity Enthusiast, IoT Engineer",
     locale: "en-US",
     type: "website",
     robots: "index,follow",
