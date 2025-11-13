@@ -180,7 +180,7 @@ Cybersecurity Community, responsible for mentoring members and delivering founda
       ],
     },
     {
-      title: "Cybersecurity Community Lead",
+      title: "Cybersecurity Community Core TEAM",
       company: "TRI Cybersecurity Community (TCC)",
       location: "Surabaya, Indonesia",
       startDate: "2025-01",
