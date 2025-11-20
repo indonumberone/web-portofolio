@@ -148,7 +148,7 @@ Cybersecurity Community, responsible for mentoring members and delivering founda
 
   experience: [
     {
-      title: "Security Researcher",
+      title: "Bug Hunter",
       company: "Self-Employed",
       location: "Remote",
       startDate: "2025",
